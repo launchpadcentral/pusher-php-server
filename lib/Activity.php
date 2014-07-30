@@ -16,7 +16,7 @@ class Activity {
     
     $this->type = $activity_type;
     $this->id = uniqid();
-    $this->date = date('r');
+    $this->date = date('c');
     
     $this->action_text = $action_text;
     $this->display_name = $options['displayName'];
